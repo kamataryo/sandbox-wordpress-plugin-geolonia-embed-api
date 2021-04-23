@@ -13,7 +13,7 @@ function euqueue_block_scripts() {
 
 
 function enqueue_geolonia_embed() {
-	echo '<script src="https://api.geolonia.com/dev/embed"></script>';
+	echo '<script src="https://cdn.geolonia.com/dev/embed"></script>';
 }
 
 add_action( 'admin_enqueue_scripts', 'euqueue_block_scripts' );
